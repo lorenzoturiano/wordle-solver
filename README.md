@@ -8,7 +8,7 @@ With each guess, you learn whether you correctly guessed a character (and its po
 
 ## Project
 
-The Wordle program we give you contains three classes:
+The Wordle program contains three classes:
 - `game.py` runs n games of Wordle coordinating the other two classes and keeps track of the scores. This script creates a new guesser object for every run.
 - `wordle.py` implements the game of Wordle, from choosing the word to guess to checking the correctness of a guess.
 - `guesser.py` produces a guess word.
@@ -20,12 +20,14 @@ You also have two wordlists in tsv and yaml format:
 ## How to run
 
 How to run n games of Wordle
-If YOU want to play:
 
-If you want the SCRIPT to play:
+If YOU want to play one round:
 `python game.py --r n`. <br>
 
-When you run this command, the program will output some stats about your success rate.
+If you want the SCRIPT to play n rounds:
+`python game.py --r n --p`. <br>
+
+When you run this command, the program will output some stats about the success rate.
 
 
 ### 🏅 Assessment
