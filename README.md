@@ -22,21 +22,12 @@ You also have two wordlists in tsv and yaml format:
 How to run n games of Wordle
 
 If YOU want to play one round:
-`python game.py --r n`. <br>
+`python game.py`. <br>
 
 If you want the SCRIPT to play n rounds:
 `python game.py --r n --p`. <br>
 
 When you run this command, the program will output some stats about the success rate.
-
-
-### 🏅 Assessment
-
-We will evaluate your `guesser.py` on a secret test set containing 500 words.
-Your grade will be based on a combination of:
-1. How often your `guesser.py` correctly guesses the word.
-2. The average number of tries it takes to produce a correct guess.
-3. The time it takes to produce 500 guesses on the test set.
 
 
 - Your guess can be any 5-letter string.
